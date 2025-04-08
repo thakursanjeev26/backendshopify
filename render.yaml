@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: shopify-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node backend.js
+    plan: free
